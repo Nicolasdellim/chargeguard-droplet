@@ -41,7 +41,7 @@ codesign --verify --strict .build/Chargeguard.droplet
 
 `--no-submission` valide le build local. Cette distribution utilise une icône personnalisée demandée pour le projet ; elle ne constitue pas une soumission au Store officiel Droppy. Une soumission devra respecter les règles de ce Store, notamment celles de l’iconographie.
 
-Essayez ensuite `.build/Chargeguard.droplet` dans [Droppy Playground](https://getdroppy.app/docs/droppykit/playground) et confirmez son chargement effectif. L’installation dans Droppy peut demander votre accord pour l’exécution de code local.
+Essayez ensuite `.build/Chargeguard.droplet` dans [Droppy Playground](https://getdroppy.app/download/playground) et confirmez son chargement effectif. L’installation dans Droppy peut demander votre accord pour l’exécution de code local.
 
 ## Moteur embarqué
 
