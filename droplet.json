@@ -1,0 +1,39 @@
+{
+  "id": "chargeguard",
+  "name": "Charge Guard",
+  "version": "1.1.0",
+  "summary": "Deux seuils pour prendre soin de votre batterie",
+  "description": "Contrôle réel de la charge avec reprise et arrêt réglables. Plage 20–80 % par défaut, charge libre temporaire avec restauration automatique. Le moteur batt est installé séparément avec une autorisation administrateur et reste actif quand Droppy est fermé. Apple Silicon uniquement. Une charge suspendue ne force pas la décharge. Réglage des deux seuils directement dans la notch.",
+  "category": "System",
+  "kit": {
+    "abi": 1,
+    "minAPI": "1.9.0"
+  },
+  "minAppVersion": "15.3.0",
+  "capabilities": [
+    "shelf-write"
+  ],
+  "surfaces": [
+    "shelf-widget",
+    "settings-pane",
+    "live-activity"
+  ],
+  "icon": "Chargeguard.icon",
+  "creator": {
+    "name": "Nicolas",
+    "kind": "community",
+    "avatar": "Creator.png"
+  },
+  "screenshots": [],
+  "keywords": [
+    "battery",
+    "charge",
+    "limit",
+    "batterie",
+    "20-80"
+  ],
+  "source": {
+    "repository": "https://github.com/Nicolasdellim/chargeguard-droplet",
+    "license": "GPL-2.0-only"
+  }
+}
